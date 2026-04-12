@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — BullionVault</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0D1B2A;
+    --surface:   #162032;
+    --border:    #243650;
+    --gold:      #C9A84C;
+    --gold-dim:  #8A6F2E;
+    --text:      #FFFFFF;
+    --text-sec:  #E8E0D0;
+    --text-mut:  #8A9BB0;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-sec);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    border-bottom: 0.5px solid var(--border);
+    padding: 32px 0 28px;
+    margin-bottom: 56px;
+  }
+
+  .header-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+
+  .logo-mark {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(201,168,76,0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface);
+  }
+
+  .logo-mark span {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--gold);
+    letter-spacing: 1px;
+  }
+
+  .logo-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--text);
+    letter-spacing: 0.5px;
+  }
+
+  .page-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 300;
+    color: var(--text);
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+  }
+
+  .page-meta {
+    font-size: 13px;
+    color: var(--text-mut);
+    letter-spacing: 0.02em;
+  }
+
+  .page-meta span {
+    color: var(--gold);
+  }
+
+  /* ── Main content ── */
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* ── Sections ── */
+  section {
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 0.5px solid var(--border);
+  }
+
+  section:last-child {
+    border-bottom: none;
+  }
+
+  .section-number {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 24px 0 8px;
+  }
+
+  p {
+    margin-bottom: 14px;
+    color: var(--text-sec);
+  }
+
+  p:last-child { margin-bottom: 0; }
+
+  /* ── Legal basis chip ── */
+  .legal-basis {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--gold);
+    background: rgba(201,168,76,0.08);
+    border: 0.5px solid rgba(201,168,76,0.25);
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+  }
+
+  /* ── Table ── */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 0.5px solid var(--border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead tr {
+    background: var(--surface);
+  }
+
+  th {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-mut);
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 0.5px solid var(--border);
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 12px 16px;
+    color: var(--text-sec);
+    border-bottom: 0.5px solid var(--border);
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr:nth-child(even) td { background: rgba(22,32,50,0.4); }
+
+  td a {
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  td a:hover { text-decoration: underline; }
+
+  /* ── Rights list ── */
+  .rights-list {
+    list-style: none;
+    margin: 16px 0;
+  }
+
+  .rights-list li {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 0.5px solid var(--border);
+  }
+
+  .rights-list li:last-child { border-bottom: none; }
+
+  .right-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(201,168,76,0.1);
+    border: 0.5px solid rgba(201,168,76,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .right-icon svg {
+    width: 12px;
+    height: 12px;
+    stroke: var(--gold);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .right-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+
+  .right-desc {
+    font-size: 13px;
+    color: var(--text-mut);
+    line-height: 1.6;
+  }
+
+  /* ── Contact card ── */
+  .contact-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-top: 20px;
+  }
+
+  .contact-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .contact-role {
+    font-size: 12px;
+    color: var(--text-mut);
+    margin-bottom: 16px;
+  }
+
+  .contact-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--gold);
+    text-decoration: none;
+  }
+
+  .contact-email:hover { text-decoration: underline; }
+
+  /* ── Footer ── */
+  footer {
+    border-top: 0.5px solid var(--border);
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  .footer-inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  footer p {
+    font-size: 12px;
+    color: var(--text-mut);
+    margin-bottom: 4px;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 480px) {
+    .page-title { font-size: 28px; }
+    td, th { padding: 10px 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <div class="logo-mark"><span>BV</span></div>
+      <span class="logo-name">BullionVault</span>
+    </div>
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="page-meta">Last updated: <span>April 2026</span> &nbsp;·&nbsp; Applies to iOS and Android apps</p>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <div class="section-number">01</div>
+    <h2>Who we are</h2>
+    <p>BullionVault is a mobile application for tracking precious metal collections. The application is operated by Roman Tabi, a sole trader registered in the Czech Republic (hereinafter "we", "us", or "our").</p>
+    <p>As the operator of BullionVault, Roman Tabi is the data controller responsible for your personal data under Regulation (EU) 2016/679 (GDPR).</p>
+    <p>Contact: <a href="mailto:bullionvault70@gmail.com" style="color:var(--gold)">bullionvault70@gmail.com</a></p>
+  </section>
+
+  <section>
+    <div class="section-number">02</div>
+    <h2>What data we collect and why</h2>
+
+    <h3>Account data</h3>
+    <p>When you sign in with Google, we receive your name, email address, and profile photo from your Google account. We use this to identify your account and associate your holdings data with you.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Holdings and portfolio data</h3>
+    <p>All holdings you enter — coins, bars, purchase prices, dates, weights, conditions, vault assignments, and notes — are stored in our database. This data is the core of the service.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Photos</h3>
+    <p>Photos you take of your coins and bars are uploaded to Firebase Storage. Before upload, all EXIF metadata (including GPS location if present) is automatically stripped. Photos are stored under your account and are not shared with third parties.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Usage analytics</h3>
+    <p>We collect anonymous usage data via Firebase Analytics — which screens you visit, which features you use, and how often. This data cannot be used to identify you personally. You can opt out at any time in Settings → Analytics.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Legitimate interest — Article 6(1)(f) GDPR
+    </div>
+
+    <h3>Crash reports</h3>
+    <p>If the application crashes, we collect a crash report via Firebase Crashlytics including the error, device type, and OS version. No personal data is included. Crash reporting is active only in release builds.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Legitimate interest — Article 6(1)(f) GDPR
+    </div>
+  </section>
+
+  <section>
+    <div class="section-number">03</div>
+    <h2>Third-party services</h2>
+    <p>We use the following third-party services to operate BullionVault. Firebase data is stored in the European Union (europe-west1 region).</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Provider</th>
+            <th>Purpose</th>
+            <th>Data sent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firebase Auth</td>
+            <td>Google LLC</td>
+            <td>Sign-in</td>
+            <td>Google account token</td>
+          </tr>
+          <tr>
+            <td>Firebase Firestore</td>
+            <td>Google LLC</td>
+            <td>Cloud data storage</td>
+            <td>Holdings and portfolio data</td>
+          </tr>
+          <tr>
+            <td>Firebase Storage</td>
+            <td>Google LLC</td>
+            <td>Photo storage</td>
+            <td>Coin/bar photos (EXIF stripped)</td>
+          </tr>
+          <tr>
+            <td>Firebase Analytics</td>
+            <td>Google LLC</td>
+            <td>Usage analytics</td>
+            <td>Anonymous usage events</td>
+          </tr>
+          <tr>
+            <td>Firebase Crashlytics</td>
+            <td>Google LLC</td>
+            <td>Crash reporting</td>
+            <td>Error reports, device info</td>
+          </tr>
+          <tr>
+            <td>Cloudflare Workers</td>
+            <td>Cloudflare Inc.</td>
+            <td>Spot price proxy</td>
+            <td>No personal data</td>
+          </tr>
+          <tr>
+            <td>Frankfurter API</td>
+            <td>European Central Bank</td>
+            <td>FX rates</td>
+            <td>No personal data</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size:13px;color:var(--text-mut)">
+      Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--gold)">policies.google.com/privacy</a><br>
+      Cloudflare's privacy policy: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" style="color:var(--gold)">cloudflare.com/privacypolicy</a>
+    </p>
+  </section>
+
+  <section>
+    <div class="section-number">04</div>
+    <h2>How long we keep your data</h2>
+    <p>Your data is kept for as long as your account exists. When you delete your account from <strong style="color:var(--text);font-weight:500">Settings → Delete account</strong>, all of the following are permanently deleted:</p>
+    <ul style="margin:12px 0 12px 20px;color:var(--text-sec)">
+      <li style="margin-bottom:6px">Your holdings, photos, vaults, and portfolio history from our servers</li>
+      <li style="margin-bottom:6px">Your Firebase Auth account</li>
+      <li>All local data on your device</li>
+    </ul>
+    <p>Some anonymised analytics data may be retained by Firebase Analytics for up to 14 months as per Google's standard retention policy. This data cannot be linked back to you after account deletion.</p>
+  </section>
+
+  <section>
+    <div class="section-number">05</div>
+    <h2>Your rights under GDPR</h2>
+    <p>As an EU resident you have the following rights:</p>
+
+    <ul class="rights-list">
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right of access</div>
+          <div class="right-desc">You can request a copy of all personal data we hold about you.</div>
+        </div>
+      </li>
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right to rectification</div>
+          <div class="right-desc">You can correct inaccurate data directly within the app.</div>
+        </div>
+      </li>
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"/><path d="M10 11v6M14 11v6"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right to erasure</div>
+          <div class="right-desc">Delete your account and all data from Settings → Delete account, or email us at bullionvault70@gmail.com.</div>
+        </div>
+      </li>
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right to data portability</div>
+          <div class="right-desc">Request your data in a portable format by emailing bullionvault70@gmail.com.</div>
+        </div>
+      </li>
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right to object</div>
+          <div class="right-desc">Opt out of analytics at any time in Settings → Analytics.</div>
+        </div>
+      </li>
+      <li>
+        <div class="right-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div>
+          <div class="right-title">Right to lodge a complaint</div>
+          <div class="right-desc">You may contact the Czech data protection authority: <a href="https://www.uoou.cz" target="_blank" style="color:var(--gold)">Úřad pro ochranu osobních údajů (uoou.cz)</a>.</div>
+        </div>
+      </li>
+    </ul>
+
+    <p style="font-size:13px;color:var(--text-mut);margin-top:16px">We will respond to all requests within 30 days.</p>
+  </section>
+
+  <section>
+    <div class="section-number">06</div>
+    <h2>Data security</h2>
+    <p>We use Firebase's security infrastructure, which includes encryption in transit (TLS) and at rest. Access to your data is restricted to your authenticated account via Firebase Security Rules — no other user can access your data.</p>
+  </section>
+
+  <section>
+    <div class="section-number">07</div>
+    <h2>Children</h2>
+    <p>BullionVault is not directed at children under 16. We do not knowingly collect data from children. If you believe a child has provided us with personal data, please contact us at bullionvault70@gmail.com and we will delete it promptly.</p>
+  </section>
+
+  <section>
+    <div class="section-number">08</div>
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy. For significant changes we will notify you within the app.</p>
+  </section>
+
+  <section>
+    <div class="section-number">09</div>
+    <h2>Contact</h2>
+    <p>For any privacy-related questions, requests, or complaints:</p>
+    <div class="contact-card">
+      <div class="contact-name">Roman Tabi</div>
+      <div class="contact-role">Data Controller · BullionVault · Czech Republic</div>
+      <a href="mailto:bullionvault70@gmail.com" class="contact-email">
+        <svg viewBox="0 0 24 24" style="width:14px;height:14px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        bullionvault70@gmail.com
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>© 2026 BullionVault · Roman Tabi</p>
+    <p>Czech Republic · GDPR compliant</p>
+  </div>
+</footer>
+
+</body>
+</html>
