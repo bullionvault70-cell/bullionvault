@@ -158,9 +158,9 @@ seed-gold-saint-gaudens-double-eagle,,,,1924,2022-11-03,2450.00,USD,,,,,,,sold,2
 
 `subtype` must match a BullionView spec ID exactly. The **live list**
 lives at
-[coins.json](https://bullionvault70-cell.github.io/bullionvault/coins.json)
+[coins.json](https://bullionvault70-cell.github.io/bullionvault/specs/coins.json)
 and
-[bars.json](https://bullionvault70-cell.github.io/bullionvault/bars.json)
+[bars.json](https://bullionvault70-cell.github.io/bullionvault/specs/bars.json)
 — copy the `id` field. Common examples:
 
 ### Gold coins (bullion)
@@ -213,7 +213,7 @@ and
 Bar subtypes follow the pattern `seed-<metal>-bar-<refinery>-<size>`,
 e.g. `seed-gold-bar-pamp-fortuna-100g`,
 `seed-silver-bar-argor-500g`. Consult
-[bars.json](https://bullionvault70-cell.github.io/bullionvault/bars.json)
+[bars.json](https://bullionvault70-cell.github.io/bullionvault/specs/bars.json)
 for the full list.
 
 ### If your coin or bar isn't listed
