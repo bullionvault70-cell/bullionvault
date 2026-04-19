@@ -1,0 +1,6 @@
+# BullionView Export v1 | 2026-04-19 | 4 holdings
+subtype,holding_type,metal,weight_troy_oz,year,purchase_date,purchase_price_amount,purchase_price_currency,purchase_fx_rate_to_usd,spot_price_at_entry_usd,spot_entry_precision,vault_name,condition,notes,status,sold_date,sale_price_amount,sale_price_currency,sale_fx_rate_to_usd,batch_id
+seed-gold-maple-1oz,,,,2023,2024-03-15,1850.00,EUR,,,,,,,active,,,,,
+seed-gold-maple-1oz,coin,gold,1.0,2023,2023-05-14,1980.00,USD,1.0,1975.50,precise,Home safe,uncirculated,"Bought from local dealer",active,,,,,
+seed-silver-philharmoniker-1oz,,,,2024,2024-02-08,28.50,EUR,,,,,,,active,,,,,
+seed-gold-saint-gaudens-double-eagle,,,,1924,2022-11-03,2450.00,USD,,,,Bank vault,extraFine,"Pre-1933 historical — premium reflects collector value",sold,2025-03-12,2680.00,USD,,
