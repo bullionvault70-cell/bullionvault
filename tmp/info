@@ -1,0 +1,17 @@
+Update these files after phase 2 rollout on Android
+
+Version bump reminder
+
+  - Don't push the coin JSON until the new app release is live on the stores. The old-version app will pull the new coins as plain bullion (no isNumismatic column), and won't re-sync after the update unless you bump again.
+  - coins is at 1.3 — gives you headroom for a post-release push.
+  - bars is at 1.1 — bump to 1.2 only if you re-upload bars.json with sort indices.
+
+  Order of operations for the release
+
+  1. Cut + submit the new app build to stores, wait for it to go live.
+  2. Once the new version is publicly available, upload in this order:
+    - coins.json and bars.json (data)
+    - import-template.csv and import-template.md (docs — can be uploaded any time)
+    - version.json last (triggers re-sync on clients — only flip this after the JSON files land)
+  3. Users on the new app open it → SpecSyncService sees coins: "1.3" ≠ cached seed-v3, fetches coins.json → 28 historical coins appear, isNumismatic lights up, HISTORICAL section renders, sort order matches the JSON.
+
