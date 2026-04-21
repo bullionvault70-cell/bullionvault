@@ -330,7 +330,7 @@
   <div class="header-inner">
     <div class="logo">
       <div class="logo-mark"><span>BV</span></div>
-      <span class="logo-name"></span>
+      <span class="logo-name">BullionView</span>
     </div>
     <h1 class="page-title">Privacy Policy</h1>
     <p class="page-meta">Last updated: <span>April 2026</span> &nbsp;·&nbsp; Applies to iOS and Android apps</p>
@@ -359,14 +359,14 @@
     </div>
 
     <h3>Holdings and portfolio data</h3>
-    <p>All holdings you enter — coins, bars, purchase prices, dates, weights, conditions, vault assignments, and notes — are stored in our database. This data is the core of the service.</p>
+    <p>All holdings you enter — coins, bars, purchase prices, dates, weights, conditions, vault assignments, and notes — are stored locally on your device. If you enable cloud backup, this data is also stored in our cloud database (Firebase Firestore) to allow restoration on a new device. Cloud backup is optional and can be enabled or disabled at any time in Settings.</p>
     <div class="legal-basis">
       <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
       Legal basis: Contract — Article 6(1)(b) GDPR
     </div>
 
     <h3>Photos</h3>
-    <p>Photos you take of your coins and bars are uploaded to Firebase Storage. Before upload, all EXIF metadata (including GPS location if present) is automatically stripped. Photos are stored under your account and are not shared with third parties.</p>
+    <p>Photos you take of your coins and bars are stored locally on your device. If cloud backup is enabled, photos are also uploaded to Firebase Storage for restoration on a new device. Before any upload, all EXIF metadata (including GPS location if present) is automatically stripped. Photos are stored under your account and are not shared with third parties. If cloud backup is disabled, photos remain on your device only and cannot be recovered after reinstallation.</p>
     <div class="legal-basis">
       <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
       Legal basis: Contract — Article 6(1)(b) GDPR
@@ -385,12 +385,40 @@
       <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
       Legal basis: Legitimate interest — Article 6(1)(f) GDPR
     </div>
+
+    <h3>Push notifications</h3>
+    <p>If you enable price or ratio alerts, we store a Firebase Cloud Messaging (FCM) device token to deliver push notifications to your device. This token is not linked to your identity — it identifies your device only. Tokens are automatically removed when they become invalid. You can disable notifications at any time in your device settings.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Price and ratio alerts</h3>
+    <p>Alert configurations you create (target prices, ratio thresholds, direction, repeat mode) are stored in our database and evaluated server-side by Firebase Cloud Functions to determine when to send notifications. Alert data is deleted when you delete the alert or your account.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Subscription data</h3>
+    <p>If you subscribe to BullionView Pro, your purchase is processed by Google Play (or Apple App Store). We use RevenueCat, a third-party subscription management service, to validate your subscription status. RevenueCat receives your anonymous app user ID and purchase receipt — we do not receive or store your payment details (credit card, billing address, etc.).</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
+
+    <h3>Preferences and favourites</h3>
+    <p>Your app preferences (display currency, theme, sound settings) and favourite coin/bar families are stored locally on your device. If cloud backup is enabled, these are also synced to our database to restore on reinstall.</p>
+    <div class="legal-basis">
+      <svg viewBox="0 0 24 24" style="width:10px;height:10px;stroke:var(--gold);fill:none;stroke-width:2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Legal basis: Contract — Article 6(1)(b) GDPR
+    </div>
   </section>
 
   <section>
     <div class="section-number">03</div>
     <h2>Third-party services</h2>
-    <p>We use the following third-party services to operate . Firebase data is stored in the European Union (europe-west1 region).</p>
+    <p>We use the following third-party services to operate BullionView. Firebase data is stored in the European Union (europe-west1 region).</p>
 
     <div class="table-wrap">
       <table>
@@ -434,6 +462,24 @@
             <td>Error reports, device info</td>
           </tr>
           <tr>
+            <td>Firebase Cloud Messaging</td>
+            <td>Google LLC</td>
+            <td>Push notifications</td>
+            <td>Device token (not linked to identity)</td>
+          </tr>
+          <tr>
+            <td>Firebase Cloud Functions</td>
+            <td>Google LLC</td>
+            <td>Server-side alert evaluation</td>
+            <td>Alert configurations, spot price comparisons</td>
+          </tr>
+          <tr>
+            <td>RevenueCat</td>
+            <td>RevenueCat Inc.</td>
+            <td>Subscription management</td>
+            <td>Anonymous app user ID, purchase receipt</td>
+          </tr>
+          <tr>
             <td>Cloudflare Workers</td>
             <td>Cloudflare Inc.</td>
             <td>Spot price proxy</td>
@@ -451,7 +497,8 @@
 
     <p style="font-size:13px;color:var(--text-mut)">
       Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--gold)">policies.google.com/privacy</a><br>
-      Cloudflare's privacy policy: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" style="color:var(--gold)">cloudflare.com/privacypolicy</a>
+      Cloudflare's privacy policy: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" style="color:var(--gold)">cloudflare.com/privacypolicy</a><br>
+      RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" style="color:var(--gold)">revenuecat.com/privacy</a>
     </p>
   </section>
 
@@ -460,7 +507,7 @@
     <h2>How long we keep your data</h2>
     <p>Your data is kept for as long as your account exists. When you delete your account from <strong style="color:var(--text);font-weight:500">Settings → Delete account</strong>, all of the following are permanently deleted:</p>
     <ul style="margin:12px 0 12px 20px;color:var(--text-sec)">
-      <li style="margin-bottom:6px">Your holdings, photos, vaults, and portfolio history from our servers</li>
+      <li style="margin-bottom:6px">Your holdings, photos, vaults, alerts, favourites, and portfolio history from our servers</li>
       <li style="margin-bottom:6px">Your Firebase Auth account</li>
       <li>All local data on your device</li>
     </ul>
@@ -506,7 +553,7 @@
         </div>
         <div>
           <div class="right-title">Right to data portability</div>
-          <div class="right-desc">Request your data in a portable format by emailing bullionvault70@gmail.com.</div>
+          <div class="right-desc">Export your collection data at any time via Settings → Export collection (CSV format). You can also request your data by emailing bullionvault70@gmail.com.</div>
         </div>
       </li>
       <li>
@@ -541,7 +588,7 @@
   <section>
     <div class="section-number">07</div>
     <h2>Children</h2>
-    <p> is not directed at children under 16. We do not knowingly collect data from children. If you believe a child has provided us with personal data, please contact us at bullionvault70@gmail.com and we will delete it promptly.</p>
+    <p>BullionView is not directed at children under 16. We do not knowingly collect data from children. If you believe a child has provided us with personal data, please contact us at bullionvault70@gmail.com and we will delete it promptly.</p>
   </section>
 
   <section>
@@ -556,7 +603,7 @@
     <p>For any privacy-related questions, requests, or complaints:</p>
     <div class="contact-card">
       <div class="contact-name">Roman Tabi</div>
-      <div class="contact-role">Data Controller ·  · Czech Republic</div>
+      <div class="contact-role">Data Controller · BullionView · Czech Republic</div>
       <a href="mailto:bullionvault70@gmail.com" class="contact-email">
         <svg viewBox="0 0 24 24" style="width:14px;height:14px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         bullionvault70@gmail.com
@@ -568,7 +615,7 @@
 
 <footer>
   <div class="footer-inner">
-    <p>© 2026  · Roman Tabi</p>
+    <p>© 2026 BullionView · Roman Tabi</p>
     <p>Czech Republic · GDPR compliant</p>
   </div>
 </footer>
