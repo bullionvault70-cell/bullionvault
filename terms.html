@@ -6,9 +6,7 @@
 <title>Terms of Service — BullionView</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
-
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
   :root {
     --bg:        #0D1B2A;
     --surface:   #162032;
@@ -19,9 +17,7 @@
     --text-sec:  #E8E0D0;
     --text-mut:  #8A9BB0;
   }
-
   html { scroll-behavior: smooth; }
-
   body {
     background: var(--bg);
     color: var(--text-sec);
@@ -31,26 +27,22 @@
     line-height: 1.8;
     min-height: 100vh;
   }
-
   header {
     border-bottom: 0.5px solid var(--border);
     padding: 32px 0 28px;
     margin-bottom: 56px;
   }
-
   .header-inner {
     max-width: 720px;
     margin: 0 auto;
     padding: 0 24px;
   }
-
   .logo {
     display: flex;
     align-items: center;
     gap: 14px;
     margin-bottom: 32px;
   }
-
   .logo-mark {
     width: 40px;
     height: 40px;
@@ -61,7 +53,6 @@
     justify-content: center;
     background: var(--surface);
   }
-
   .logo-mark span {
     font-family: 'Cormorant Garamond', serif;
     font-size: 16px;
@@ -69,7 +60,6 @@
     color: var(--gold);
     letter-spacing: 1px;
   }
-
   .logo-name {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -77,7 +67,6 @@
     color: var(--text);
     letter-spacing: 0.5px;
   }
-
   .page-title {
     font-family: 'Cormorant Garamond', serif;
     font-size: clamp(32px, 5vw, 48px);
@@ -87,29 +76,23 @@
     line-height: 1.1;
     margin-bottom: 12px;
   }
-
   .page-meta {
     font-size: 13px;
     color: var(--text-mut);
     letter-spacing: 0.02em;
   }
-
   .page-meta span { color: var(--gold); }
-
   main {
     max-width: 720px;
     margin: 0 auto;
     padding: 0 24px 80px;
   }
-
   section {
     margin-bottom: 48px;
     padding-bottom: 48px;
     border-bottom: 0.5px solid var(--border);
   }
-
   section:last-child { border-bottom: none; }
-
   .section-number {
     font-size: 11px;
     font-weight: 500;
@@ -118,7 +101,6 @@
     text-transform: uppercase;
     margin-bottom: 8px;
   }
-
   h2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
@@ -127,7 +109,6 @@
     margin-bottom: 20px;
     line-height: 1.2;
   }
-
   h3 {
     font-size: 13px;
     font-weight: 500;
@@ -136,20 +117,15 @@
     text-transform: uppercase;
     margin: 24px 0 8px;
   }
-
   p { margin-bottom: 14px; color: var(--text-sec); }
   p:last-child { margin-bottom: 0; }
-
   ul, ol {
     margin: 12px 0 14px 20px;
     color: var(--text-sec);
   }
-
   li { margin-bottom: 8px; line-height: 1.7; }
-
   a { color: var(--gold); text-decoration: none; }
   a:hover { text-decoration: underline; }
-
   .highlight-box {
     background: var(--surface);
     border: 0.5px solid var(--border);
@@ -157,41 +133,34 @@
     padding: 20px 24px;
     margin: 20px 0;
   }
-
   .highlight-box p {
     font-size: 13px;
     color: var(--text-mut);
     margin-bottom: 0;
   }
-
   .highlight-box strong {
     color: var(--text);
     font-weight: 500;
   }
-
   .tier-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
     margin: 20px 0;
   }
-
   @media (max-width: 480px) {
     .tier-grid { grid-template-columns: 1fr; }
   }
-
   .tier-card {
     background: var(--surface);
     border: 0.5px solid var(--border);
     border-radius: 10px;
     padding: 18px 20px;
   }
-
   .tier-card.pro {
     border-color: rgba(201,168,76,0.3);
     background: rgba(201,168,76,0.04);
   }
-
   .tier-name {
     font-size: 11px;
     font-weight: 500;
@@ -200,9 +169,7 @@
     color: var(--text-mut);
     margin-bottom: 8px;
   }
-
   .tier-card.pro .tier-name { color: var(--gold); }
-
   .tier-card ul {
     margin: 0;
     padding: 0;
@@ -210,22 +177,18 @@
     font-size: 13px;
     color: var(--text-sec);
   }
-
   .tier-card li {
     margin-bottom: 5px;
     padding-left: 14px;
     position: relative;
   }
-
   .tier-card li::before {
     content: '·';
     position: absolute;
     left: 0;
     color: var(--text-mut);
   }
-
   .tier-card.pro li::before { color: var(--gold); }
-
   .warning-box {
     background: rgba(224, 82, 82, 0.06);
     border: 0.5px solid rgba(224, 82, 82, 0.25);
@@ -235,7 +198,6 @@
     font-size: 13px;
     color: var(--text-sec);
   }
-
   .contact-card {
     background: var(--surface);
     border: 0.5px solid var(--border);
@@ -243,7 +205,6 @@
     padding: 24px;
     margin-top: 20px;
   }
-
   .contact-name {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -251,13 +212,11 @@
     color: var(--text);
     margin-bottom: 4px;
   }
-
   .contact-role {
     font-size: 12px;
     color: var(--text-mut);
     margin-bottom: 16px;
   }
-
   .contact-email {
     display: inline-flex;
     align-items: center;
@@ -265,28 +224,23 @@
     font-size: 14px;
     color: var(--gold);
   }
-
   footer {
     border-top: 0.5px solid var(--border);
     padding: 28px 24px;
     text-align: center;
   }
-
   .footer-inner { max-width: 720px; margin: 0 auto; }
   footer p { font-size: 12px; color: var(--text-mut); margin-bottom: 4px; }
-
   .nav-links {
     display: flex;
     gap: 20px;
     margin-top: 12px;
     justify-content: center;
   }
-
   .nav-links a { font-size: 12px; color: var(--gold); }
 </style>
 </head>
 <body>
-
 <header>
   <div class="header-inner">
     <div class="logo">
@@ -294,12 +248,10 @@
       <span class="logo-name">BullionView</span>
     </div>
     <h1 class="page-title">Terms of Service</h1>
-    <p class="page-meta">Last updated: <span>April 2026</span> &nbsp;·&nbsp; Applies to iOS and Android apps</p>
+    <p class="page-meta">Last updated: <span>May 2026</span> &nbsp;·&nbsp; Applies to iOS and Android apps</p>
   </div>
 </header>
-
 <main>
-
   <section>
     <div class="section-number">01</div>
     <h2>Acceptance of terms</h2>
@@ -309,7 +261,6 @@
       <p><strong>By continuing to use BullionView, you confirm that you are at least 16 years of age and have the legal capacity to enter into this agreement.</strong></p>
     </div>
   </section>
-
   <section>
     <div class="section-number">02</div>
     <h2>Description of the service</h2>
@@ -325,13 +276,13 @@
       <li>Import and export your collection via CSV (Pro)</li>
     </ul>
     <p>BullionView is a <strong>personal tracking tool only</strong>. It is not a financial services product, investment platform, or dealing service.</p>
+    <h3>Using BullionView without an account</h3>
+    <p>You may use BullionView without creating an account by selecting "Continue without account" on the welcome screen. In anonymous mode, all data you enter is stored on your device only. The following features require a signed-in Google account: cloud backup and restore, push price and ratio alerts, photo cloud sync, multi-device sync, and importing your anonymous data into an account. You may sign in at any time from Settings → Account.</p>
   </section>
-
   <section>
     <div class="section-number">03</div>
     <h2>Service tiers</h2>
     <p>BullionView is available in the following tiers:</p>
-
     <div class="tier-grid">
       <div class="tier-card">
         <div class="tier-name">Free</div>
@@ -361,9 +312,7 @@
         </ul>
       </div>
     </div>
-
     <p>We reserve the right to modify tier features and pricing with reasonable notice. Current free tier users will not have existing functionality removed without notice.</p>
-
     <h3>Subscription billing</h3>
     <p>BullionView Pro is a recurring monthly subscription billed through Google Play (or the Apple App Store). By subscribing, you agree to the following:</p>
     <ul>
@@ -374,8 +323,8 @@
       <li>When Pro access expires (after cancellation or failed payment), holdings above the free tier limit remain in your account but you cannot add new holdings until your count is at or below 50. No data is deleted.</li>
       <li>We do not offer refunds directly. Refund requests are handled by Google Play or the App Store according to their respective policies.</li>
     </ul>
+    <p><strong style="color:var(--text);font-weight:500">Subscribing in anonymous mode.</strong> If you subscribe to BullionView Pro while using the App without an account, your subscription is anchored to your Apple or Google account at the platform level, and the App associates it with an anonymous identifier internally. We recommend signing in to BullionView before subscribing — that links the subscription to your account so it is automatically restored when you reinstall the App or use it on another device. If you subscribe anonymously and later reinstall without signing in, you may need to use your platform's "Restore Purchases" flow to regain access.</p>
   </section>
-
   <section>
     <div class="section-number">04</div>
     <h2>Accuracy of financial data</h2>
@@ -391,31 +340,25 @@
       <li>P&amp;L calculations are for personal reference only and should not be used for tax reporting without independent verification</li>
     </ul>
     <p>We are not a financial adviser, broker, or dealer. Nothing in BullionView constitutes financial, investment, tax, or legal advice.</p>
-
     <h3>Insurance reports</h3>
     <p>The insurance report PDF generated by BullionView is for personal record-keeping and documentation purposes only. All valuations are based on spot market prices at the time of generation and do not constitute a professional appraisal, valuation, or guarantee of value. For official insurance valuations, consult a qualified and certified appraiser. We accept no liability for the accuracy, completeness, or suitability of insurance reports for any purpose including insurance claims, estate planning, tax reporting, or legal proceedings.</p>
-
     <h3>CSV import and export</h3>
     <p>You are solely responsible for the accuracy of data you import via CSV. We do not validate the correctness of imported purchase prices, dates, or other financial data beyond format validation. Exported data is provided as-is based on the data you entered.</p>
   </section>
-
   <section>
     <div class="section-number">05</div>
     <h2>Your account and data</h2>
-
     <h3>Account responsibility</h3>
     <p>You are responsible for maintaining the security of your Google account used to sign in to BullionView. We are not liable for any loss resulting from unauthorised access to your account.</p>
-
     <h3>Your data</h3>
     <p>All holdings data you enter belongs to you. We do not sell, share, or monetise your personal holdings data. See our <a href="privacy-policy.html">Privacy Policy</a> for full details on how we handle your data.</p>
-
     <h3>Data accuracy</h3>
     <p>You are responsible for the accuracy of data you enter into the App, including purchase prices, dates, weights, and other holding details.</p>
-
+    <h3>Anonymous mode data</h3>
+    <p>When you use BullionView without an account, all data you enter is stored only on your device. Deleting the App, factory-resetting your device, or switching to a different device will permanently lose your anonymous-mode data — we cannot recover it because we do not have a copy. We strongly recommend signing in to enable cloud backup, or using the CSV export feature (Pro), if you want to preserve your records before any device migration.</p>
     <h3>Account deletion</h3>
     <p>You may delete your account and all associated data at any time from Settings → Delete account. Deletion is permanent and irreversible.</p>
   </section>
-
   <section>
     <div class="section-number">06</div>
     <h2>Acceptable use</h2>
@@ -429,7 +372,6 @@
       <li>Use the App to store data belonging to other persons without their consent</li>
     </ul>
   </section>
-
   <section>
     <div class="section-number">07</div>
     <h2>Intellectual property</h2>
@@ -437,7 +379,6 @@
     <p>Coin and bar images displayed in the App are used for identification purposes. Respective trademarks belong to their issuing mints and refineries.</p>
     <p>You retain ownership of photographs you take using the App.</p>
   </section>
-
   <section>
     <div class="section-number">08</div>
     <h2>Limitation of liability</h2>
@@ -450,27 +391,23 @@
     </ul>
     <p>Nothing in these Terms limits liability for death or personal injury caused by negligence, or for fraud or fraudulent misrepresentation, as such limitations are not permitted under Czech or EU law.</p>
   </section>
-
   <section>
     <div class="section-number">09</div>
     <h2>Service availability</h2>
     <p>We aim to provide a reliable service but do not guarantee uninterrupted availability. We may temporarily suspend the service for maintenance, updates, or reasons beyond our control. We will provide reasonable notice of planned downtime where possible.</p>
     <p>We reserve the right to discontinue the App with reasonable notice. In such case, we will provide a means for you to export your data.</p>
   </section>
-
   <section>
     <div class="section-number">10</div>
     <h2>Changes to these terms</h2>
     <p>We may update these Terms from time to time. When we do, we will update the "Last updated" date at the top of this page. For material changes, we will notify you within the App. Continued use of the App after changes constitutes acceptance of the updated Terms.</p>
   </section>
-
   <section>
     <div class="section-number">11</div>
     <h2>Governing law</h2>
     <p>These Terms are governed by the laws of the Czech Republic. Any disputes arising from these Terms or your use of the App shall be subject to the exclusive jurisdiction of the courts of the Czech Republic.</p>
     <p>If you are an EU consumer, you also have the right to use the European Commission's Online Dispute Resolution platform: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a>.</p>
   </section>
-
   <section>
     <div class="section-number">12</div>
     <h2>Contact</h2>
@@ -484,9 +421,7 @@
       </a>
     </div>
   </section>
-
 </main>
-
 <footer>
   <div class="footer-inner">
     <p>© 2026 BullionView · Roman Tabi</p>
@@ -497,6 +432,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
