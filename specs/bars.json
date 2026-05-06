@@ -107,5 +107,7 @@
   { "id": "seed-silver-bar-argor-100g", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 3.215, "weightG": 100.0, "purity": 0.999, "lengthMm": 49.7, "widthMm": 28.5, "thicknessMm": 7.2, "imageUrl": null, "remoteVersion": "1.2" },
   { "id": "seed-silver-bar-argor-250g", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 8.038, "weightG": 250.0, "purity": 0.999, "lengthMm": 68.0, "widthMm": 33.0, "thicknessMm": 13.0, "imageUrl": null, "remoteVersion": "1.2" },
   { "id": "seed-silver-bar-argor-500g", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 16.075, "weightG": 500.0, "purity": 0.999, "lengthMm": 93.5, "widthMm": 44.0, "thicknessMm": 13.5, "imageUrl": null, "remoteVersion": "1.2" },
-  { "id": "seed-silver-bar-argor-1kg", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 32.15, "weightG": 1000.0, "purity": 0.999, "lengthMm": 119.0, "widthMm": 54.0, "thicknessMm": 16.5, "imageUrl": null, "remoteVersion": "1.2" }
+  { "id": "seed-silver-bar-argor-1kg", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 32.15, "weightG": 1000.0, "purity": 0.999, "lengthMm": 119.0, "widthMm": 54.0, "thicknessMm": 16.5, "imageUrl": null, "remoteVersion": "1.2" },
+
+  { "id": "seed-silver-bar-rand-1oz", "subtype": "Rand Refinery", "refinery": "Rand Refinery", "metal": "silver", "weightTroyOz": 1.0, "weightG": 31.1, "purity": 0.999, "lengthMm": 48.0, "widthMm": 31.0, "thicknessMm": 3.0, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/rand_refinery_silver.png", "remoteVersion": "1.4" }
 ]
