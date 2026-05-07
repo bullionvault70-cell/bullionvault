@@ -1,5 +1,15 @@
 [
   {
+    "id": "2026-05-07-rand-silver-1oz",
+    "type": "spec_added",
+    "title": "New coin: 1oz Halier copper",
+    "body": "Just added support for the 1oz Rand Refinery silver bar (48 × 31 × 3 mm, 0.999 purity). Tap to add it to your stack.",
+    "createdAt": "2026-05-07T18:00:00Z",
+    "specId": "seed-silver-bar-rand-1oz",
+    "holdingType": "coin",
+    "requestIds": ["dfc94ea9-ff60-4aff-a38c-36fc7c22f3d0"]
+  },
+  {
     "id": "2026-05-07-faster-sync",
     "type": "feature",
     "title": "Faster catalog updates",
