@@ -1,5 +1,12 @@
 [
   {
+    "id": "2026-05-07-hello-world",
+    "type": "announcement",
+    "title": "Hello world",
+    "body": "Hello world, testing news",
+    "createdAt": "2026-05-07T11:00:00Z"
+  },
+  {
     "id": "2026-05-07-rand-silver-1oz",
     "type": "spec_added",
     "title": "New coin: 1oz Halier copper",
