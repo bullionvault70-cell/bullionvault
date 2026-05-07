@@ -1,0 +1,16 @@
+[
+  {
+    "id": "2026-05-07-faster-sync",
+    "type": "feature",
+    "title": "Faster catalog updates",
+    "body": "We dropped the spec sync interval from 24 hours to 1 hour, so new bars and coins now reach you the same day they're added.",
+    "createdAt": "2026-05-07T17:30:00Z"
+  },
+  {
+    "id": "2026-05-07-welcome",
+    "type": "announcement",
+    "title": "Welcome to News",
+    "body": "This is where you'll see new bars, new coins, app features, and updates from the team. Tap the bell on the dashboard any time.",
+    "createdAt": "2026-05-07T17:00:00Z"
+  }
+]
