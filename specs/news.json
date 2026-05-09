@@ -1,12 +1,22 @@
 [
   {
+    "id": "2026-05-10-liberia-1-1000oz-gold",
+    "type": "spec_added",
+    "title": "New coin: Liberia 1/1000 oz gold",
+    "body": "Added support for the Liberia 1/1000 oz gold coin series — covers Fall of Lucifer, Cannabis, Spartan, UFO and the rest of the themed line. Use the notes field on your holding to record the specific theme and year.",
+    "createdAt": "2026-05-10T00:00:00Z",
+    "specId": "seed-gold-coin-liberia-1-1000oz",
+    "holdingType": "coin",
+    "requestIds": ["78377503-4c03-4bd6-8522-b6ae31bf1825"]
+  },
+  {
     "id": "2026-05-09-nadir-apmex-batch",
     "type": "spec_added",
-    "title": "New bars: full Nadir range + APMEX silver",
+    "title": "New bars: full Nadir range + more APMEX silver",
     "body": "Big catalog update — added 19 bars: the full Nadir Metal Rafineri minted gold range (1g, 2.5g, 5g, 10g, 20g, 50g, 100g, both .995 and .9999), Nadir silver (1oz, 50g, 100g), and APMEX silver (1oz, 5oz, 10oz). Open Add Holding to find them.",
     "createdAt": "2026-05-09T14:00:00Z",
     "holdingType": "bar",
-    "requestIds": ["fb659f37-7f2d-4516-afaa-bfa9f182890e", "0e3f5027-9ac0-4ad6-9b52-3dec30a7f8ab", "e976b993-a96e-4cfd-9f6c-c2ab022144a0"]
+    "requestIds": ["fb659f37-7f2d-4516-afaa-bfa9f182890e", "0e3f5027-9ac0-4ad6-9b52-3dec30a7f8ab"]
   },
   {
     "id": "2026-05-07-welcome",
