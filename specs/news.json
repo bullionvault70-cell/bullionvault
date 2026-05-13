@@ -3,7 +3,7 @@
     "id": "2026-05-13-geiger-silver-bars",
     "type": "spec_added",
     "title": "New bars: Geiger silver",
-    "body": "Added the full Geiger Edelmetalle silver square-bar range (.999 fine) — 1g, 5g, 10g, 20g, 1oz, 50g, 100g, 5oz, 250g, 10oz, 500g, 1kg and the 5kg cast bar. Open Add Holding → Bar → Silver to find them.",
+    "body": "Added the full Geiger Edelmetalle silver square-bar range (.999 fine) — 1g, 5g, 10g, 20g, 1oz, 50g, 100g, 5oz, 250g, 10oz, 500g, 1kg and the 5kg cast bar. Open Add Holding → Silver → Bar to find them.",
     "createdAt": "2026-05-13T14:00:00Z",
     "holdingType": "bar",
     "requestIds": ["4ff00a90-c997-404f-8c6a-d4244d7a1277"]
