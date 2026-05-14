@@ -1,8 +1,8 @@
 # BullionView Export v2 | 2026-05-13 | 4 holdings | 1 specs | 1 vaults
 
 # USER_SPECS
-id,holding_type,subtype,metal,weight_troy_oz,weight_g,purity,diameter_mm,length_mm,width_mm,thickness_mm,refinery_or_country,series,display_in_grams,premium_over_spot
-user-d3ccb366-a75c-495d-9ba4-24228f562928,coin,Local Shop Round,silver,1.0,31.1035,0.999,38.6,,,2.98,Czech Republic,,false,
+id,holding_type,subtype,metal,weight_troy_oz,weight_g,purity,diameter_mm,length_mm,width_mm,thickness_mm,refinery_or_country,series,display_in_grams,premium_over_spot,sell_spread_over_spot
+user-d3ccb366-a75c-495d-9ba4-24228f562928,coin,Local Shop Round,silver,1.0,31.1035,0.999,38.6,,,2.98,Czech Republic,,false,,
 
 # VAULTS
 name,vault_type,notes

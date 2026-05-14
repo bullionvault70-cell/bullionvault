@@ -81,7 +81,8 @@ treats the CSV as the source of truth.
 | `refinery_or_country` | ✓ | Refinery name for bars, issuing country for coins. |
 | `series` | optional | Series name for coins (e.g. "Wildlife Series"). |
 | `display_in_grams` | ✓ | `true` or `false`. Controls how the spec's weight reads back in the UI. |
-| `premium_over_spot` | optional | Decimal (e.g. `0.15` for a 15 % premium). Applied at valuation time for user-defined specs. Empty for no premium. |
+| `premium_over_spot` | optional | Decimal (e.g. `0.15` for a 15 % premium). The markup over spot on the *buy* side — used for the holding's current value. Empty for no premium. |
+| `sell_spread_over_spot` | optional | Decimal (e.g. `0.04` for a 4 % spread). The dealer's discount on the *sell* side — used for the "Sell value (est.)" figure. Empty falls back to a metal × weight default. |
 
 ## VAULTS section
 
@@ -206,8 +207,8 @@ seed-gold-maple-1oz,,,,2023,2024-03-15,1850.00,EUR,,,,,,,active,,,,,
 
 ```
 # USER_SPECS
-id,holding_type,subtype,metal,weight_troy_oz,weight_g,purity,diameter_mm,length_mm,width_mm,thickness_mm,refinery_or_country,series,display_in_grams,premium_over_spot
-user-abc-123,coin,Local Shop Round,silver,1.0,31.1035,0.999,38.6,,,2.98,Czech Republic,,false,
+id,holding_type,subtype,metal,weight_troy_oz,weight_g,purity,diameter_mm,length_mm,width_mm,thickness_mm,refinery_or_country,series,display_in_grams,premium_over_spot,sell_spread_over_spot
+user-abc-123,coin,Local Shop Round,silver,1.0,31.1035,0.999,38.6,,,2.98,Czech Republic,,false,,
 
 # HOLDINGS
 …
