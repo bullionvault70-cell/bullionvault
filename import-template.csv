@@ -1,6 +1,17 @@
-# BullionView Export v1 | 2026-04-19 | 4 holdings
+# BullionView Export v2 | 2026-05-13 | 4 holdings | 1 specs | 1 vaults
+
+# USER_SPECS
+id,holding_type,subtype,metal,weight_troy_oz,weight_g,purity,diameter_mm,length_mm,width_mm,thickness_mm,refinery_or_country,series,display_in_grams,premium_over_spot,sell_spread_over_spot
+user-d3ccb366-a75c-495d-9ba4-24228f562928,coin,Local Shop Round,silver,1.0,31.1035,0.999,38.6,,,2.98,Czech Republic,,false,,
+
+# VAULTS
+name,vault_type,notes
+Home safe,safe,"Closet, hidden under floorboards"
+
+# HOLDINGS
 subtype,holding_type,metal,weight_troy_oz,year,purchase_date,purchase_price_amount,purchase_price_currency,purchase_fx_rate_to_usd,spot_price_at_entry_usd,spot_entry_precision,vault_name,condition,notes,status,sold_date,sale_price_amount,sale_price_currency,sale_fx_rate_to_usd,batch_id
-seed-gold-maple-1oz,,,,2023,2024-03-15,1850.00,EUR,,,,,,,active,,,,,
+seed-gold-maple-1oz,,,,2023,2024-03-15,1850.00,EUR,,,,Home safe,,,active,,,,,
 seed-gold-maple-1oz,coin,gold,1.0,2023,2023-05-14,1980.00,USD,1.0,1975.50,precise,Home safe,uncirculated,"Bought from local dealer",active,,,,,
 seed-silver-philharmoniker-1oz,,,,2024,2024-02-08,28.50,EUR,,,,,,,active,,,,,
+user-d3ccb366-a75c-495d-9ba4-24228f562928,,,,2024,2024-06-01,30.00,USD,1.0,28.00,precise,Home safe,,,active,,,,,
 seed-gold-saint-gaudens-double-eagle,,,,1924,2022-11-03,2450.00,USD,,,,Bank vault,extraFine,"Pre-1933 historical — premium reflects collector value",sold,2025-03-12,2680.00,USD,,
