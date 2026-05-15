@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-05-15-noahs-ark-silver",
+    "type": "spec_added",
+    "title": "New coin family: Armenian Noah's Ark silver",
+    "body": "Added the full Armenian Noah's Ark silver bullion family (.999 fine) — 1g, 1/4 oz, 1/2 oz, 1 oz, 5 oz, 10 oz, 1 kg and the 5 kg cast issue. Open Add Holding → Silver → Coin to find them.",
+    "createdAt": "2026-05-15T15:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["7f600ff5-aeb4-4c75-a7db-474f92fee475"]
+  },
+  {
     "id": "2026-05-15-britannia-100g-silver",
     "type": "spec_added",
     "title": "New bar: Royal Mint Britannia 100g silver",
