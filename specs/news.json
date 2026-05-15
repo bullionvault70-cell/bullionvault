@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-15-germania-coins",
+    "type": "spec_added",
+    "title": "New coin series: Germania",
+    "body": "Added the Germania coin series (.9999 fine), struck at Germania Mint — silver 1/10, 1/4, 1/2, 1 and 2 oz; gold 1/10, 1/4, 1/2 and 1 oz. Open Add Holding → Silver/Gold → Coin to find them.",
+    "createdAt": "2026-05-15T17:00:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
+    "id": "2026-05-15-germania-bars",
+    "type": "spec_added",
+    "title": "New bars: Germania Mint silver cast + gold",
+    "body": "Big Germania Mint catalog update — added the full silver cast bar range (1oz, 5oz, 10oz, 100oz, 100g, 250g, 500g, and 1kg in both .9999 and .999) plus a 1g gold minted bar and a 1oz gold cast bar. Open Add Holding to find them.",
+    "createdAt": "2026-05-15T16:50:00Z",
+    "holdingType": "bar",
+    "requestIds": ["e98422d2-599e-4df5-b5df-b3af03874522"]
+  },
+  {
     "id": "2026-05-15-noahs-ark-silver",
     "type": "spec_added",
     "title": "New coin family: Armenian Noah's Ark silver",
