@@ -11,7 +11,7 @@ Two ready-to-use templates:
   — single sheet with all three sections, dropdown validation on the
   enum columns, and a live formula in the header that auto-counts your
   rows. Recommended for hand-editing.
-- [**CSV template (.csv)**](./BullionView_Import_Template.csv) — the
+- [**CSV template (.csv)**](./import-template.csv) — the
   raw text shape the importer actually reads. Open in a text editor
   or spreadsheet, fill in your rows, save as CSV (UTF-8), then pick
   it in **Settings → Import collection**.
@@ -362,7 +362,7 @@ Two options:
 ## Tips for spreadsheet users
 
 1. Open the [Excel template](./BullionView_Import_Template.xlsx) (or
-   the [.csv version](./BullionView_Import_Template.csv)) in your
+   the [.csv version](./import-template.csv)) in your
    spreadsheet app.
 2. The Excel template has dropdowns on the enum columns
    (`metal`, `holding_type`, `vault_type`, `condition`, `status`,
