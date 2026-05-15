@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-05-15-britannia-100g-silver",
+    "type": "spec_added",
+    "title": "New bar: Royal Mint Britannia 100g silver",
+    "body": "Added the Royal Mint Britannia 100g silver minted bar (.999 fine). Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-05-15T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["1425d9bd-089f-43d2-a6f7-14177ff905b5"]
+  },
+  {
     "id": "2026-05-13-geiger-silver-bars",
     "type": "spec_added",
     "title": "New bars: Geiger silver",
