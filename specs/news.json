@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-16-scottsdale-stacker",
+    "type": "spec_added",
+    "title": "New coins: Scottsdale Stacker silver rounds",
+    "body": "Added the Scottsdale Mint Stacker series in silver (.999 fine) — 1oz, 2oz, 100g, and 5oz. The Stacker line ships under multiple designs (Lion, Eagle, Dragon, and more) but the physical spec is identical across designs, so one catalogue entry per weight covers them all — record the specific design in your holding notes. Open Add Holding → Silver → Coin to find them.",
+    "createdAt": "2026-05-16T11:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["333e9e3b-4c21-4b68-9687-922e482c4fa7"]
+  },
+  {
+    "id": "2026-05-16-morgan-silver-dollar",
+    "type": "spec_added",
+    "title": "New coins: Morgan Silver Dollar (historical .900 + modern .999)",
+    "body": "Added the iconic Morgan Silver Dollar in two flavours: the classic 1878–1921 issue (.900 fine, 0.7734 oz pure silver) and the 2021+ US Mint revival (.999 fine, 0.8585 oz pure silver). Same 26.73g coin, 38.1mm diameter — only the composition changed. Both are numismatic — value driven by year, mintmark, and condition, not silver content alone. Pick the right flavour when adding your holding and record year + mintmark + grade in the notes. Open Add Holding → Silver → Coin to find them.",
+    "createdAt": "2026-05-16T10:06:00Z",
+    "holdingType": "coin",
+    "requestIds": ["cc3c086c-6cce-43db-a2f5-084aef04c7d9"]
+  },
+  {
     "id": "2026-05-15-germania-coins",
     "type": "spec_added",
     "title": "New coin series: Germania",
