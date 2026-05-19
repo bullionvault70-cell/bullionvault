@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-05-15-update-available",
+    "type": "announcement",
+    "title": "New version available — update",
+    "body": "Head to the App Store or Google Play and grab the latest BullionView to see the features below. New in this release: real-world value math — premium + sell-spread (Pro), six built-in calculators, a help-and-explanations glossary, sell-spread management for Pro, and a way to create your own coin/bar specs.",
+    "createdAt": "2026-05-18T20:00:00Z"
+  },
+  {
+    "id": "2026-05-15-real-world-value-math",
+    "type": "feature",
+    "title": "Real-world value math (Pro)",
+    "body": "BullionView 1.4 adds sell-value math for Pro accounts: see what your stack would actually fetch at dealer buy-back prices (spot minus a realistic spread), alongside the current value (spot plus each spec's premium). Pick which drives your dashboard headline in Settings → Portfolio value, or set it to plain Spot. Holding detail shows all three side by side. Free continues to see plain spot value.",
+    "createdAt": "2026-05-18T19:30:00Z"
+  },
+  {
+    "id": "2026-05-15-calculators-and-help",
+    "type": "feature",
+    "title": "Six built-in calculators + a help screen",
+    "body": "A new Tools section on the dashboard opens six in-app calculators built for stackers: Effects, Buying Power, Dealer Premium, GSR Convert, Ratio Mean-Reversion, and (Pro) Portfolio What-If. Plus a Help & Explanations screen with plain-language definitions of spot, premium, sell spread, cost basis, current value and sell value — with concrete gold and silver worked examples.",
+    "createdAt": "2026-05-18T19:20:00Z"
+  },
+  {
+    "id": "2026-05-15-user-defined-specs",
+    "type": "feature",
+    "title": "Add your own coin or bar specs",
+    "body": "No-name silver rounds, generic foundry bars, anything that isn't in the curated catalog — you can now create your own user-defined specs. Set the name, metal, weight, purity, dimensions and premium once, then re-use the spec across holdings just like any catalog entry. Multi-variant families let one spec cover several weights. Generate a QR code to share a spec with another BullionView user; they scan it straight into their library. Open Add Holding, pick a metal and coin/bar, and look for the YOUR SPECS section in the picker.",
+    "createdAt": "2026-05-18T19:10:00Z"
+  },
+  {
     "id": "2026-05-16-scottsdale-stacker",
     "type": "spec_added",
     "title": "New coins: Scottsdale Stacker silver rounds",
