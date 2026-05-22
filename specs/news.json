@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-22-scottsdale-stacker-bar",
+    "type": "spec_added",
+    "title": "New bar: Scottsdale Stacker 10 oz silver",
+    "body": "Added the Scottsdale Mint Stacker 10 oz silver bar (.999 fine) — a serialized, interlocking rectangular bar built to stack flush. Note this is the bar format; the 1–5 oz Stacker rounds are listed separately under Coin. Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-05-22T17:52:27Z",
+    "holdingType": "bar",
+    "requestIds": ["77027f60-383f-4232-8bc8-2d5c1bb1c998"]
+  },
+  {
+    "id": "2026-05-22-australian-pixiu",
+    "type": "spec_added",
+    "title": "New coin: Australian Pixiu silver (Perth Mint)",
+    "body": "Added the Perth Mint Pixiu silver coin (1 oz, .9999 fine). One catalogue entry covers the Pixiu series — including the 2020 Double Pixiu (Guardian Lions) — which share the same 40.6 mm format. The reverse design changes by year, so record your coin's year and design in the holding notes. Open Add Holding → Silver → Coin to find it.",
+    "createdAt": "2026-05-22T17:39:38Z",
+    "holdingType": "coin",
+    "requestIds": ["6e2f07a3-d836-497d-9e32-4bf504ea7c36"]
+  },
+  {
     "id": "2026-05-15-update-available",
     "type": "announcement",
     "title": "New version available — update",
