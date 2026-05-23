@@ -145,5 +145,7 @@
   { "id": "seed-silver-scottsdale-stacker-100g", "subtype": "Scottsdale Stacker", "metal": "silver", "weightTroyOz": 3.215, "purity": 0.999, "diameterMm": 38.5, "thicknessMm": 8.3,   "issuingCountry": "USA", "displayInGrams": true, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/scottsdale_silver_stacker.png", "remoteVersion": "2.0" },
   { "id": "seed-silver-scottsdale-stacker-5oz",  "subtype": "Scottsdale Stacker", "metal": "silver", "weightTroyOz": 5.0,   "purity": 0.999, "diameterMm": 38.5, "thicknessMm": 13.1,  "issuingCountry": "USA", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/scottsdale_silver_stacker.png", "remoteVersion": "2.0" },
 
-  { "id": "seed-silver-pixiu-1oz", "subtype": "Australian Pixiu", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.9999, "diameterMm": 40.6, "thicknessMm": 3.21, "issuingCountry": "Australia", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/australian_silver_pixiu.png", "remoteVersion": "2.1" }
+  { "id": "seed-silver-pixiu-1oz", "subtype": "Australian Pixiu", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.9999, "diameterMm": 40.6, "thicknessMm": 3.21, "issuingCountry": "Australia", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/australian_silver_pixiu.png", "remoteVersion": "2.1" },
+
+  { "id": "seed-silver-lunar-series-iii-1oz", "subtype": "Australian Lunar Series III", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.9999, "diameterMm": 32.6, "thicknessMm": 2.6, "issuingCountry": "Australia", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/australian_silver_lunar_series_iii.png", "remoteVersion": "2.2" }
 ]
