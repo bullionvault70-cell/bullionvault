@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-23-scottsdale-vortex-bar",
+    "type": "spec_added",
+    "title": "New bar: Scottsdale The Vortex 1 oz silver",
+    "body": "Added the Scottsdale Mint The Vortex 1 oz silver bar (.999 fine) — a themed minted bar from Scottsdale's art-bar line (50 × 29 × 2.6 mm). Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-05-23T08:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["fad6dbeb-dad9-4e98-9ab4-25058cf28433"]
+  },
+  {
+    "id": "2026-05-23-australian-lunar-series-iii",
+    "type": "spec_added",
+    "title": "New coin: Australian Lunar Series III silver (Perth Mint)",
+    "body": "Added the Perth Mint Lunar Series III silver coin (1 oz, .9999 fine). One catalogue entry covers the whole 2020–2031 zodiac cycle — starting with the 2020 Year of the Mouse and continuing through to the 2031 Year of the Pig — since all 1 oz issues share the same 32.6 mm format. The reverse design changes by year, so record your coin's zodiac year in the holding notes. Open Add Holding → Silver → Coin to find it.",
+    "createdAt": "2026-05-23T07:50:00Z",
+    "holdingType": "coin",
+    "requestIds": ["86fdf98e-1029-45bd-96f9-850c8369be32"]
+  },
+  {
     "id": "2026-05-22-scottsdale-stacker-bar",
     "type": "spec_added",
     "title": "New bar: Scottsdale Stacker 10 oz silver",
