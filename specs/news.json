@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-23-chinese-silver-panda",
+    "type": "spec_added",
+    "title": "New coins: Chinese Silver Panda",
+    "body": "Added the China Mint Silver Panda (.999 fine) — two entries cover the full bullion run: the pre-2016 1 oz issue (1989–2015) and the 2016+ 30 g metric issue. Both share the same 40 mm format. The reverse panda design changes every year, so record your coin's year in the holding notes. Open Add Holding → Silver → Coin to find them.",
+    "createdAt": "2026-05-23T12:10:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
+    "id": "2026-05-23-australian-silver-koala",
+    "type": "spec_added",
+    "title": "New coins: Australian Silver Koala (Perth Mint)",
+    "body": "Added the Perth Mint Silver Koala bullion family (.9999 fine) — 1/2 oz, 1 oz, 10 oz and 1 kg. The koala design changes every year (running 2007–present), so record your coin's year and design in the holding notes. Open Add Holding → Silver → Coin to find them.",
+    "createdAt": "2026-05-23T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
     "id": "2026-05-23-scottsdale-vortex-bar",
     "type": "spec_added",
     "title": "New bar: Scottsdale The Vortex 1 oz silver",
