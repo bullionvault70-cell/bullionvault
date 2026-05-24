@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-05-24-silvertowne-heritage-eagle",
+    "type": "spec_added",
+    "title": "New bar: SilverTowne Heritage Eagle 1 oz silver",
+    "body": "Added the SilverTowne Heritage Eagle 1 oz silver bar (.999 fine) — a classic American-eagle minted bar from SilverTowne Mint (47.4 × 27.4 × 2.5 mm). Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-05-24T10:30:00Z",
+    "holdingType": "bar",
+    "requestIds": ["ff659f38-16af-43d0-b3e9-4a76ea475142"]
+  },
+  {
+    "id": "2026-05-24-pamp-barbie-series",
+    "type": "spec_added",
+    "title": "New bar: PAMP Barbie Series 1 g gold",
+    "body": "Added the PAMP Suisse Barbie™ Series 1 g gold bar (.9999 fine). One catalogue entry covers the full Barbie series — starting with the 2025 Year 1 design — since all 1 g issues share the same PAMP minted format. The design changes by year, so record your bar's year and design in the holding notes. Open Add Holding → Gold → Bar to find it.",
+    "createdAt": "2026-05-24T10:20:00Z",
+    "holdingType": "bar",
+    "requestIds": ["abb75836-0236-45ec-a40c-76c57deb0256"]
+  },
+  {
+    "id": "2026-05-24-catalog-expansion",
+    "type": "spec_added",
+    "title": "Catalog expansion: six new coin series",
+    "body": "Big batch of new coin families added today: Royal Mint Queen's Beasts (silver 2/10 oz, 1 kg + gold 1/4, 1 oz, .9999) and its successor Tudor Beasts (same weights); Perth Mint Lunar Series II 2008–2019 (silver 1/2 oz to 1 kg + gold 1/10 to 1 oz, the predecessor to Series III); South African Big Five silver and gold 1 oz; and the Royal Canadian Mint Wildlife Series and Birds of Prey silver 1 oz. Each entry is generic — one row per weight covers every beast, animal, bird, or zodiac year in the series. Record the specific design and year in your holding notes. Open Add Holding to find them.",
+    "createdAt": "2026-05-24T10:00:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
     "id": "2026-05-23-chinese-silver-panda",
     "type": "spec_added",
     "title": "New coins: Chinese Silver Panda",
