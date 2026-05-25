@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-05-25-perth-dune-bar",
+    "type": "spec_added",
+    "title": "New bar: Perth Mint Dune 1 g gold",
+    "body": "Added the Perth Mint Dune™ 1 g gold bar (.9999 fine) — an officially licensed Dune-themed minted bar featuring the sandworm of Arrakis on the obverse and the Perth Mint swan LBMA hallmark on the reverse. Limited mintage of 5,000 worldwide. Open Add Holding → Gold → Bar to find it.",
+    "createdAt": "2026-05-25T08:30:00Z",
+    "holdingType": "bar",
+    "requestIds": ["94d6af61-4c96-4350-8be7-6fcb455bf27e"]
+  },
+  {
+    "id": "2026-05-25-barbados-trident",
+    "type": "spec_added",
+    "title": "New coin: Barbados Silver Trident",
+    "body": "Added the Barbados Silver Trident 1 oz coin (.999 fine), struck by the Royal Canadian Mint for the Central Bank of Barbados. One catalogue entry covers the full annual series — running since 2017 — as all 1 oz issues share the same format. The design changes by year, so record your coin's year and design in the holding notes. Open Add Holding → Silver → Coin to find it.",
+    "createdAt": "2026-05-25T08:20:00Z",
+    "holdingType": "coin",
+    "requestIds": ["5847ddfe-5d7e-46b1-be79-43ee3c67e9a0"]
+  },
+  {
+    "id": "2026-05-25-nordic-mint-tree",
+    "type": "spec_added",
+    "title": "New bars: Nordic Mint Tree silver (1, 5, 10 oz, 1 kg)",
+    "body": "Added the Nordic Mint Tree of Life silver bar family (.999 fine) — 1 oz, 5 oz, 10 oz, and 1 kg minted bars featuring the Yggdrasil tree from Norse mythology, struck by Nordic Mint in Fargo, North Dakota (ISO-9001 certified American private mint). Open Add Holding → Silver → Bar to find them.",
+    "createdAt": "2026-05-25T08:10:00Z",
+    "holdingType": "bar",
+    "requestIds": ["4fe220e3-ef64-4dbe-b55b-f9edf7dd70f2"]
+  },
+  {
     "id": "2026-05-24-silvertowne-heritage-eagle",
     "type": "spec_added",
     "title": "New bar: SilverTowne Heritage Eagle 1 oz silver",
