@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-05-26-silvertowne-liberty-buffalo",
+    "type": "spec_added",
+    "title": "New bar: SilverTowne Liberty Buffalo 5 oz silver",
+    "body": "Added the SilverTowne Liberty Buffalo 5 oz silver bar (.999 fine) — a tribute design to the classic American Buffalo Nickel, with a Native American profile on the obverse and the buffalo on the reverse. Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-05-26T08:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["826b7c44-4a7d-4534-a848-6427c14b8833"]
+  },
+  {
     "id": "2026-05-25-perth-dune-bar",
     "type": "spec_added",
     "title": "New bar: Perth Mint Dune 1 g gold",
