@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-05-29-argor-kinebar",
+    "type": "spec_added",
+    "title": "New bar: Argor-Heraeus Kinebar (gold)",
+    "body": "Added the Argor-Heraeus Kinebar — the Swiss refiner's gold bar with the embedded Kinegram hologram, in 1 g, 2 g, 5 g, 10 g, 20 g, 1 oz, 50 g and 100 g (.9999 fine). It now has its own entries alongside the plain Argor-Heraeus bars. Open Add Holding → Gold → Bar to find them.",
+    "createdAt": "2026-05-29T10:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["d3285be7-c943-40bd-b307-21b77aa0ebb6"]
+  },
+  {
     "id": "2026-05-29-apmex-lunar-bars",
     "type": "spec_added",
     "title": "New bars: APMEX Lunar silver (full zodiac)",
