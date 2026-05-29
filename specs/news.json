@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-05-29-apmex-lunar-bars",
+    "type": "spec_added",
+    "title": "New bars: APMEX Lunar silver (full zodiac)",
+    "body": "Added the full APMEX Lunar silver bar line (1 oz, .999 fine) — every Chinese zodiac year as its own entry: Series 1 from 2012 Year of the Dragon through 2023 Year of the Rabbit, plus the redesigned Series 2 (2024 Dragon, 2025 Snake, 2026 Horse). Each year carries its own reverse design. The plain APMEX bar stays for unthemed pieces. Open Add Holding → Silver → Bar to find them.",
+    "createdAt": "2026-05-29T09:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["7d0503ee-1833-4631-8dae-8f535f4bfd33"]
+  },
+  {
+    "id": "2026-05-29-themed-variant-coins",
+    "type": "spec_added",
+    "title": "New: individual designs for beasts, lunar & wildlife series",
+    "body": "Big collectible update — many series now have a catalogue entry per design instead of one generic row. Royal Mint Queen's Beasts and Tudor Beasts (all ten beasts each, silver 2 oz + gold 1 oz and 1/4 oz), Perth Mint Lunar Series II and III (every zodiac year), and the Royal Canadian Mint Wildlife and Birds of Prey series (each animal). The generic family entries remain for anything not separately listed. Open Add Holding → Silver/Gold → Coin to find them.",
+    "createdAt": "2026-05-29T08:30:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
     "id": "2026-05-26-silvertowne-liberty-buffalo",
     "type": "spec_added",
     "title": "New bar: SilverTowne Liberty Buffalo 5 oz silver",
