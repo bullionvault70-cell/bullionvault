@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-06-03-patriots-coin-gold-bar",
+    "type": "spec_added",
+    "title": "New bar: Patriots Coin 1 g gold snap bar",
+    "body": "Added the Patriots Coin 1 gram gold snap bar (.9999) — a divisible bar that breaks into 15 grain sub-bars, with serial number and tamper-proof hologram. Open Add Holding → Gold → Bar to find it.",
+    "createdAt": "2026-06-03T16:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["db1758c6-9980-4c67-91a7-611dd98161ae"]
+  },
+  {
     "id": "2026-05-29-argor-kinebar",
     "type": "spec_added",
     "title": "New bar: Argor-Heraeus Kinebar (gold)",
