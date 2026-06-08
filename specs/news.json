@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-06-08-argor-snake-scottsdale-prepper",
+    "type": "spec_added",
+    "title": "New bars: Argor-Heraeus Year of the Snake & Scottsdale Prepper",
+    "body": "Added two requested bars — the Argor-Heraeus 'Year of the Snake 2025' gold limited edition (.9999, in 1 g / 5 g / 10 g / 1 oz), and the Scottsdale Mint 1 g 'Prepper' silver bar (.999). Open Add Holding → Bar to find them.",
+    "createdAt": "2026-06-08T15:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["16bc8c3f-514b-460a-806b-cac7a4ede3bd", "a17c5e40-09a6-4ed4-b9ec-7c2bedc9b39a"]
+  },
+  {
     "id": "2026-06-03-patriots-coin-gold-bar",
     "type": "spec_added",
     "title": "New bar: Patriots Coin 1 g gold snap bar",
