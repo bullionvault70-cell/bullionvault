@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-07-23-silver-krugerrand",
+    "type": "spec_added",
+    "title": "New coin: Silver Krugerrand",
+    "body": "Added the 1 oz Silver Krugerrand (.999 fine) — struck by Rand Refinery and the South African Mint, sharing the classic Paul Kruger / springbok design of its famous gold sibling. Open Add Holding → Silver → Coin to find it.",
+    "createdAt": "2026-07-23T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["10c8fb27-2b7a-417d-abf2-c54fafd9da8f"]
+  },
+  {
     "id": "2026-06-08-argor-snake-scottsdale-prepper",
     "type": "spec_added",
     "title": "New bars: Argor-Heraeus Year of the Snake & Scottsdale Prepper",
