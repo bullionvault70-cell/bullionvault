@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-07-24-geiger-karatbars-gold-bars",
+    "type": "spec_added",
+    "title": "New bars: Geiger & Karatbars 1 g gold",
+    "body": "Added requested gold bars — the Geiger Edelmetalle gold bar (.9999, square security-line format, in 1 g through 1 kg) and the Karatbars 1 g gold bar (.9999). Open Add Holding → Gold → Bar to find them.",
+    "createdAt": "2026-07-24T21:30:00Z",
+    "holdingType": "bar",
+    "requestIds": ["4adac282-c67c-4f67-a9df-f0aa6815be05", "4f2f2a8c-fe44-489c-81be-a03937de0126"]
+  },
+  {
     "id": "2026-07-23-silver-krugerrand",
     "type": "spec_added",
     "title": "New coin: Silver Krugerrand",
