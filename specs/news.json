@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-07-26-wessex-mint-silver-bar",
+    "type": "spec_added",
+    "title": "New bar: Wessex Mint 1 g silver",
+    "body": "Added the Wessex Mint 1 g silver bar (.999 fine) — a minted bar from the UK independent mint. Open Add Holding → Silver → Bar to find it.",
+    "createdAt": "2026-07-26T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["81a9ce3d-1f61-4381-8851-de212d895dda"]
+  },
+  {
     "id": "2026-07-24-geiger-karatbars-gold-bars",
     "type": "spec_added",
     "title": "New bars: Geiger & Karatbars 1 g gold",
