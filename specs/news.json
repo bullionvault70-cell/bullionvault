@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-08-03-cook-islands-500-years-america",
+    "type": "spec_added",
+    "title": "New coin: Cook Islands 20 Dollars — 500 Years of America",
+    "body": "Added the Cook Islands 20 Dollars gold proof (1/25 oz, .999 fine) from the 500 Years of America series, struck for the 500th anniversary of Columbus's voyage. The reverse varies by issue — Christopher Columbus, the Statue of Liberty and others — so record your design and year in the holding notes. Open Add Holding → Gold → Coin to find it.",
+    "createdAt": "2026-08-03T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["7679be72-bbdb-4d3e-8935-1964b6413318"]
+  },
+  {
     "id": "2026-07-26-wessex-mint-silver-bar",
     "type": "spec_added",
     "title": "New bar: Wessex Mint 1 g silver",
