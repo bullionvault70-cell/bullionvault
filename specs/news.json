@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-08-20-silvertowne-flag-bar",
+    "type": "spec_added",
+    "title": "New bar: SilverTowne Flag",
+    "body": "Added the SilverTowne Flag silver bar (.999 fine) in 1 oz, 5 oz and 10 oz \u2014 a minted bar from the Indiana refiner carrying the American flag design. Open Add Holding \u2192 Silver \u2192 Bar to find them.",
+    "createdAt": "2026-08-20T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["89d404a3-c138-4a00-a672-405dc496c36a"]
+  },
+  {
     "id": "2026-08-03-cook-islands-500-years-america",
     "type": "spec_added",
     "title": "New coin: Cook Islands 20 Dollars — 500 Years of America",
