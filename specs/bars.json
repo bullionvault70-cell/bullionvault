@@ -133,6 +133,8 @@
 
   { "id": "seed-gold-bar-patriotscoin-1g", "subtype": "Patriots Coin", "refinery": "Patriots Coin", "metal": "gold", "weightTroyOz": 0.0322, "weightG": 1.0, "purity": 0.9999, "lengthMm": 25.0, "widthMm": 15.0, "thicknessMm": 0.4, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/patriotscoin_gold.png", "remoteVersion": "2.9" },
 
+  { "id": "seed-gold-bar-tavex-1g", "subtype": "Tavex", "refinery": "Tavex", "metal": "gold", "weightTroyOz": 0.0322, "weightG": 1.0, "purity": 0.9999, "lengthMm": 14.7, "widthMm": 8.9, "thicknessMm": 0.4, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/tavex_gold.png", "remoteVersion": "3.4" },
+
   { "id": "seed-silver-bar-pamp-fortuna-1oz", "subtype": "PAMP Suisse Fortuna", "refinery": "PAMP Suisse", "metal": "silver", "weightTroyOz": 1.0, "weightG": 31.1, "purity": 0.999, "lengthMm": 50.8, "widthMm": 28.6, "thicknessMm": 3.5, "displayInGrams": false, "imageUrl": null, "remoteVersion": "1.8" },
   { "id": "seed-silver-bar-pamp-fortuna-100g", "subtype": "PAMP Suisse Fortuna", "refinery": "PAMP Suisse", "metal": "silver", "weightTroyOz": 3.215, "weightG": 100.0, "purity": 0.999, "lengthMm": 65.0, "widthMm": 38.0, "thicknessMm": 5.0, "imageUrl": null, "remoteVersion": "1.2" },
   { "id": "seed-silver-bar-pamp-fortuna-500g", "subtype": "PAMP Suisse Fortuna", "refinery": "PAMP Suisse", "metal": "silver", "weightTroyOz": 16.075, "weightG": 500.0, "purity": 0.999, "lengthMm": 90.0, "widthMm": 40.0, "thicknessMm": 14.5, "imageUrl": null, "remoteVersion": "1.2" },
@@ -159,6 +161,8 @@
   { "id": "seed-silver-bar-argor-1kg", "subtype": "Argor-Heraeus", "refinery": "Argor-Heraeus", "metal": "silver", "weightTroyOz": 32.15, "weightG": 1000.0, "purity": 0.999, "lengthMm": 119.0, "widthMm": 54.0, "thicknessMm": 16.5, "imageUrl": null, "remoteVersion": "1.2" },
 
   { "id": "seed-silver-bar-rand-1oz", "subtype": "Rand Refinery", "refinery": "Rand Refinery", "metal": "silver", "weightTroyOz": 1.0, "weightG": 31.1, "purity": 0.999, "lengthMm": 48.0, "widthMm": 31.0, "thicknessMm": 3.0, "displayInGrams": false, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/rand_refinery_silver.png", "remoteVersion": "1.8" },
+
+  { "id": "seed-silver-bar-asahi-1oz", "subtype": "Asahi Refining", "refinery": "Asahi Refining", "metal": "silver", "weightTroyOz": 1.0, "weightG": 31.1, "purity": 0.999, "lengthMm": 48.5, "widthMm": 28.4, "thicknessMm": 2.6, "displayInGrams": false, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/asahi_silver.png", "remoteVersion": "3.4" },
 
   { "id": "seed-silver-bar-apmex-1oz", "subtype": "APMEX", "refinery": "APMEX", "metal": "silver", "weightTroyOz": 1.0, "weightG": 31.1, "purity": 0.999, "lengthMm": 50.0, "widthMm": 29.0, "thicknessMm": 2.4, "displayInGrams": false, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/apmex_silver.png", "remoteVersion": "1.8" },
   { "id": "seed-silver-bar-apmex-5oz", "subtype": "APMEX", "refinery": "APMEX", "metal": "silver", "weightTroyOz": 5.0, "weightG": 155.5, "purity": 0.999, "lengthMm": 60.0, "widthMm": 35.0, "thicknessMm": 7.0, "displayInGrams": false, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/bars/apmex_silver.png", "remoteVersion": "1.8" },

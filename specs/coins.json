@@ -165,6 +165,8 @@
 
   { "id": "seed-silver-britannia-1oz", "subtype": "British Britannia", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 38.61, "thicknessMm": 3.0, "issuingCountry": "UK", "imageUrl": null, "remoteVersion": "1.4" },
 
+  { "id": "seed-silver-royal-arms-1oz", "subtype": "British Royal Arms", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 38.61, "thicknessMm": 3.0, "issuingCountry": "UK", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/british_silver_royal_arms.png", "remoteVersion": "3.0" },
+
   { "id": "seed-silver-queens-beasts-2oz",  "subtype": "Royal Mint Queen's Beasts", "metal": "silver", "weightTroyOz": 2.0,   "purity": 0.9999, "diameterMm": 38.61, "thicknessMm": 6.0,  "issuingCountry": "UK", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/british_silver_queens_beasts.png", "remoteVersion": "2.5" },
   { "id": "seed-silver-queens-beasts-10oz", "subtype": "Royal Mint Queen's Beasts", "metal": "silver", "weightTroyOz": 10.0,  "purity": 0.9999, "diameterMm": 65.0,  "thicknessMm": 8.8,  "issuingCountry": "UK", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/british_silver_queens_beasts.png", "remoteVersion": "2.5" },
   { "id": "seed-silver-queens-beasts-1kg",  "subtype": "Royal Mint Queen's Beasts", "metal": "silver", "weightTroyOz": 32.15, "purity": 0.9999, "diameterMm": 100.0, "thicknessMm": 13.5, "issuingCountry": "UK", "displayInGrams": true, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/british_silver_queens_beasts.png", "remoteVersion": "2.5" },

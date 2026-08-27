@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-08-27-royal-arms-silver",
+    "type": "spec_added",
+    "title": "New coin: British Royal Arms",
+    "body": "Added the Royal Mint's 1 oz Royal Arms silver bullion coin (.999 fine), issued annually since 2019 and carrying the full Royal Coat of Arms on the reverse \u2014 the Britannia's stablemate at the same 38.61 mm size. Open Add Holding \u2192 Silver \u2192 Coin to find it.",
+    "createdAt": "2026-08-27T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["b772acf5-e0a1-4eb3-bf00-c48890cc7402"]
+  },
+  {
+    "id": "2026-08-27-tavex-asahi-bars",
+    "type": "spec_added",
+    "title": "New bars: Tavex 1 g gold, Asahi 1 oz silver",
+    "body": "Added the Tavex 1 g gold bar (.9999 fine) from the Nordic and Baltic dealer, and the Asahi Refining 1 oz silver bar (.999 fine) from the Salt Lake City refiner that took over the old Johnson Matthey works. Open Add Holding \u2192 Gold or Silver \u2192 Bar to find them.",
+    "createdAt": "2026-08-27T12:05:00Z",
+    "holdingType": "bar",
+    "requestIds": ["f373a6fb-753e-4892-bc2a-72e533ef4053", "84ebf05f-36fc-4b80-8749-84c8344a3f80"]
+  },
+  {
     "id": "2026-08-20-silvertowne-flag-bar",
     "type": "spec_added",
     "title": "New bar: SilverTowne Flag",
