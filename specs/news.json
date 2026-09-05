@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-09-05-ainslie-minted-gold-bars",
+    "type": "spec_added",
+    "title": "New bars: Ainslie Minted gold",
+    "body": "Added the Ainslie Minted gold bar range (.9999 fine) in 1 g, 5 g, 10 g, 20 g, 1 oz, 50 g and 100 g — the own-brand minted line from Ainslie Bullion, the Brisbane dealer trading since 1974, each bar serial-numbered in a tamper-evident card. Open Add Holding → Gold → Bar to find them.",
+    "createdAt": "2026-09-05T12:05:00Z",
+    "holdingType": "bar",
+    "requestIds": [
+      "a580e9f2-28f7-4ed3-b0e0-d8a655d16e17"
+    ]
+  },
+  {
+    "id": "2026-09-05-austrian-babenberger",
+    "type": "spec_added",
+    "title": "New coin: Austrian 1000 Schilling Babenberger",
+    "body": "Added the Austrian 1000 Schilling Babenberger (13.5 g at .900 fine, 12.15 g of gold) — struck by the Austrian Mint in 1976 for the millennium of the Babenberg dynasty, with the heraldic eagle on the obverse and a mounted knight on the reverse. Open Add Holding → Gold → Coin to find it.",
+    "createdAt": "2026-09-05T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": [
+      "838a8ed8-026d-48d3-b038-eb3caee0fef6"
+    ]
+  },
+  {
     "id": "2026-08-27-royal-arms-silver",
     "type": "spec_added",
     "title": "New coin: British Royal Arms",
