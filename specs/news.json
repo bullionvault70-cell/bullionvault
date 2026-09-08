@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-09-08-scottsdale-gold-bar",
+    "type": "spec_added",
+    "title": "New bar: Scottsdale Mint gold",
+    "body": "Added the Scottsdale Mint 1 oz gold bar (.9999 fine) — the Arizona mint's own minted gold, struck in-house and sold serial-numbered in a tamper-evident assay card, alongside the Scottsdale silver bars already in the catalogue. Open Add Holding → Gold → Bar to find it.",
+    "createdAt": "2026-09-08T10:20:00Z",
+    "holdingType": "bar",
+    "requestIds": [
+      "30ec43fa-a27c-4c2b-aaa9-c292e40c07d5"
+    ]
+  },
+  {
     "id": "2026-09-05-ainslie-minted-gold-bars",
     "type": "spec_added",
     "title": "New bars: Ainslie Minted gold",
