@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-09-11-palladium-and-platinum",
+    "type": "spec_added",
+    "title": "Palladium arrives, platinum expands",
+    "body": "Palladium is now in the catalogue for the first time \u2014 the Canadian Maple Leaf, American Eagle and Australian Emu 1 oz coins (.9995 fine), plus PAMP Fortuna and Valcambi palladium bars. Platinum gains the Austrian Philharmonic, British Britannia, Krugerrand and Chinese Panda, alongside the first platinum bars from PAMP and Valcambi. Open Add Holding \u2192 Palladium or Platinum to find them.",
+    "createdAt": "2026-09-11T14:10:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
+    "id": "2026-09-11-cee-and-world-coins",
+    "type": "spec_added",
+    "title": "Czech Lion, Slovak Eagle and more world coins",
+    "body": "Central Europe gets its due: the Czech Lion and Slovak Eagle in gold and silver, and the Polish Bielik. Also added the Somalian Elephant, the Owl of Athena, Perth's Australian Swan, the quarter, double and five Sovereign, and the 1/20 oz gold Maple Leaf. Open Add Holding \u2192 Gold or Silver \u2192 Coin to find them.",
+    "createdAt": "2026-09-11T14:05:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
+    "id": "2026-09-11-new-refiners",
+    "type": "spec_added",
+    "title": "New refiners: Credit Suisse, Metalor, Heraeus and more",
+    "body": "Eight refiners joined the bar catalogue \u2014 Credit Suisse, Metalor, Heraeus (Hanau), Degussa, Istanbul Gold Refinery and Emirates Gold in gold, plus the classic Engelhard and Johnson Matthey silver bars that vintage stackers have been missing. Open Add Holding \u2192 Gold or Silver \u2192 Bar to find them.",
+    "createdAt": "2026-09-11T14:00:00Z",
+    "holdingType": "bar",
+    "requestIds": []
+  },
+  {
+    "id": "2026-09-11-swiss-vreneli-10-100",
+    "type": "spec_added",
+    "title": "New coins: Swiss 10 and 100 Franc Vreneli",
+    "body": "Added the Swiss 10 Franc and 100 Franc Vreneli (.900 fine), joining the 20 Franc already in the catalogue \u2014 Switzerland's classic Helvetia gold, struck from 1897 to 1949, with the 100 Franc a single 1925 issue. Open Add Holding \u2192 Gold \u2192 Coin to find them.",
+    "createdAt": "2026-09-11T13:00:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
     "id": "2026-09-08-scottsdale-gold-bar",
     "type": "spec_added",
     "title": "New bar: Scottsdale Mint gold",
