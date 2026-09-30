@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-09-30-valcambi-half-ounce-gold",
+    "type": "spec_added",
+    "title": "New bar: Valcambi 1/2 oz gold",
+    "body": "Added the Valcambi Suisse 1/2 oz gold bar (.9999 fine) \u2014 the half-ounce minted bar from the Swiss refinery, slotting between the 10 g and 20 g sizes. Open Add Holding \u2192 Gold \u2192 Bar to find it.",
+    "createdAt": "2026-09-30T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["c380bfed-d01c-48b8-b25d-129770a615c1"]
+  },
+  {
     "id": "2026-09-11-palladium-and-platinum",
     "type": "spec_added",
     "title": "Palladium arrives, platinum expands",
