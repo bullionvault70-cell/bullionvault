@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-02-australian-pillar-dollar",
+    "type": "spec_added",
+    "title": "New coins: Australian Pillar Dollar",
+    "body": "Added the Australian Pillar Dollar in 1 oz silver and 1/4 oz and 1 oz gold (all .9999 fine) \u2014 the Perth Mint's 2025 single-year issue marking the 225th anniversary of the Proclamation coins, with the Spanish 8-reales pillar design that circulated in early colonial Australia. Open Add Holding \u2192 Silver or Gold \u2192 Coin to find them.",
+    "createdAt": "2026-10-02T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["0ccf32e6-6d47-4491-b2d1-1832a6962e6f"]
+  },
+  {
     "id": "2026-09-30-valcambi-half-ounce-gold",
     "type": "spec_added",
     "title": "New bar: Valcambi 1/2 oz gold",
