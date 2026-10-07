@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-07-us-junk-silver",
+    "type": "spec_added",
+    "title": "New coins: US 90% silver dimes, quarters and halves",
+    "body": "Added pre-1965 US circulating silver \u2014 the 90% dime, quarter and half dollar (1892\u20131964, every design: Barber, Mercury, Roosevelt, Standing Liberty, Washington, Walking Liberty, Franklin, Kennedy), plus the 40% Kennedy half (1965\u20131970). Each is valued by its silver content, so enter the coin count and BullionView does the rest. Open Add Holding \u2192 Silver \u2192 Coin to find them.",
+    "createdAt": "2026-10-07T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": []
+  },
+  {
     "id": "2026-10-02-australian-pillar-dollar",
     "type": "spec_added",
     "title": "New coins: Australian Pillar Dollar",
