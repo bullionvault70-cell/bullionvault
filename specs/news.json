@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-08-myths-legends-and-pamp-lunar-tiger",
+    "type": "spec_added",
+    "title": "New: Maid Marian, Little John and PAMP Lunar Tiger",
+    "body": "Added the Royal Mint Myths and Legends Maid Marian and Little John 1 oz silver coins (.999 fine) \u2014 Robin Hood's companions from the Sherwood Forest series \u2014 and the PAMP Suisse Lunar Year of the Tiger 2022 gold bar in 5 g and 1 oz (.9999 fine). Open Add Holding \u2192 Silver \u2192 Coin or Gold \u2192 Bar to find them.",
+    "createdAt": "2026-10-08T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["993d03a3-4454-4060-b331-03e103915f01", "c119e99a-cc86-4ade-ae3d-1fb6b70e15c0", "18a75a30-9684-4a3f-8f96-e4ac9b2cc90d"]
+  },
+  {
     "id": "2026-10-07-us-junk-silver",
     "type": "spec_added",
     "title": "New coins: US 90% silver dimes, quarters and halves",
