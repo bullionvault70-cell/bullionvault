@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-11-pamp-west-coast-kayaker",
+    "type": "spec_added",
+    "title": "New bar: PAMP West Coast Kayaker",
+    "body": "Added the PAMP Suisse West Coast Kayaker 1 oz gold bar (.9999 fine) \u2014 part of PAMP's Reflections of America series. Open Add Holding \u2192 Gold \u2192 Bar to find it.",
+    "createdAt": "2026-10-11T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["4bc8f3ba-b948-469a-91d9-3b9f6adff8cb"]
+  },
+  {
     "id": "2026-10-08-myths-legends-and-pamp-lunar-tiger",
     "type": "spec_added",
     "title": "New: Maid Marian, Little John and PAMP Lunar Tiger",
