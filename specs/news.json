@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-17-2-rand-half-pahlavi-emu",
+    "type": "spec_added",
+    "title": "New coins: 2 Rand, ½ Pahlavi and Emu",
+    "body": "Added three requested coins: the South African 2 Rand (7.32 g fine gold, .917), the Iranian ½ Pahlavi (4.07 g, .900 gold) and the Perth Mint Australian Emu 1 oz silver (.9999). Open Add Holding \u2192 Gold or Silver \u2192 Coin to find them.",
+    "createdAt": "2026-10-17T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["7e396ad9-722e-4718-a540-159f82c1034e", "1b81b2f8-1187-4cf7-8415-2d728ec4a99e", "754e1b02-e6ce-4f96-9d29-88e293fde348"]
+  },
+  {
     "id": "2026-10-11-pamp-west-coast-kayaker",
     "type": "spec_added",
     "title": "New bar: PAMP West Coast Kayaker",
