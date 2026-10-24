@@ -191,6 +191,8 @@
   { "id": "seed-silver-birds-of-prey-owl-1oz", "subtype": "Canadian Birds of Prey — Great Horned Owl", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.9999, "diameterMm": 37.97, "thicknessMm": 3.29, "issuingCountry": "Canada", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/canadian_silver_birds_of_prey_owl.png", "remoteVersion": "2.7" },
 
   { "id": "seed-silver-philharmoniker-1oz", "subtype": "Austrian Philharmoniker", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 37.0, "thicknessMm": 3.2, "issuingCountry": "Austria", "imageUrl": null, "remoteVersion": "1.4" },
+  { "id": "seed-silver-austrian-5-euro-vancouver-ski-jump", "subtype": "Austrian 5 Euro Vancouver 2010 — Ski Jumping", "metal": "silver", "weightTroyOz": 0.2572, "weightG": 10.0, "purity": 0.8, "diameterMm": 28.5, "thicknessMm": 2.0, "issuingCountry": "Austria", "displayInGrams": true, "isNumismatic": true, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/austrian_silver_5_euro_vancouver_ski_jump.png", "remoteVersion": "3.8" },
+  { "id": "seed-silver-austrian-5-euro-vancouver-snowboard", "subtype": "Austrian 5 Euro Vancouver 2010 — Snowboarding", "metal": "silver", "weightTroyOz": 0.2572, "weightG": 10.0, "purity": 0.8, "diameterMm": 28.5, "thicknessMm": 2.0, "issuingCountry": "Austria", "displayInGrams": true, "isNumismatic": true, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/austrian_silver_5_euro_vancouver_snowboard.png", "remoteVersion": "3.8" },
 
   { "id": "seed-silver-britannia-1oz", "subtype": "British Britannia", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 38.61, "thicknessMm": 3.0, "issuingCountry": "UK", "imageUrl": null, "remoteVersion": "1.4" },
 
@@ -326,6 +328,8 @@
   { "id": "seed-silver-slovak-eagle-10oz", "subtype": "Slovak Eagle", "metal": "silver", "weightTroyOz": 10.0, "purity": 0.999, "diameterMm": 76.0, "thicknessMm": 6.5, "issuingCountry": "Niue", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/niue_silver_slovak_eagle.png", "remoteVersion": "3.3" },
 
   { "id": "seed-silver-polish-bielik-1oz", "subtype": "Polish Eagle Bielik", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 38.61, "thicknessMm": 3.0, "issuingCountry": "Poland", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/polish_silver_bielik.png", "remoteVersion": "3.3" },
+
+  { "id": "seed-silver-russian-empire-50-kopeks", "subtype": "Russian Empire 50 Kopeks (1895–1914)", "metal": "silver", "weightTroyOz": 0.2894, "weightG": 10.0, "purity": 0.9, "diameterMm": 26.75, "thicknessMm": 2.1, "issuingCountry": "Russia", "displayInGrams": true, "isNumismatic": true, "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/russian_silver_50_kopeks.png", "remoteVersion": "3.8" },
 
   { "id": "seed-silver-owl-of-athena-1oz", "subtype": "Owl of Athena", "metal": "silver", "weightTroyOz": 1.0, "purity": 0.999, "diameterMm": 38.61, "thicknessMm": 3.0, "issuingCountry": "Niue", "imageUrl": "https://bullionvault70-cell.github.io/bullionvault/specs/images/coins/niue_silver_owl_of_athena.png", "remoteVersion": "3.3" },
 

@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-24-vancouver-5-euro-50-kopeks-heimerle",
+    "type": "spec_added",
+    "title": "New: Austrian Vancouver 5 Euro, Russian 50 Kopeks and Heimerle + Meule 0.5 g",
+    "body": "Added four requested specs: the Austrian 5 Euro Vancouver 2010 Winter Olympics coins in both designs, Ski Jumping and Snowboarding (10 g, .800 silver), the Russian Empire 50 Kopeks (10 g, .900 silver, 1895\u20131914) and the Heimerle + Meule 0.5 g gold bar (.9999 fine). Open Add Holding \u2192 Silver \u2192 Coin or Gold \u2192 Bar to find them.",
+    "createdAt": "2026-10-24T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["7b4ec5cc-54cf-4528-ad65-0670f784de90", "abc0a58b-43b0-44bc-a573-dbf34ce6f8b3", "00aee4fe-4369-4644-a8d2-f02421b85aec", "f655505d-affc-40d5-84fa-db70ee52bab2"]
+  },
+  {
     "id": "2026-10-17-2-rand-half-pahlavi-emu",
     "type": "spec_added",
     "title": "New coins: 2 Rand, ½ Pahlavi and Emu",
