@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-11-03-wessex-gold-heimerle-1g",
+    "type": "spec_added",
+    "title": "New: Wessex Mint gold bars and Heimerle + Meule 1 g",
+    "body": "Added three requested gold bars: the Wessex Mint 1/1000 oz and 1/200 oz fractional bars (.9999 fine) and the Heimerle + Meule 1 g minted bar (.9999 fine). Open Add Holding \u2192 Gold \u2192 Bar to find them.",
+    "createdAt": "2026-11-03T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["78341dd3-1f78-4697-8104-331e97a98e14", "94562f3b-5e36-48e4-bc9a-05d07d7a3453", "4a652895-86a2-492c-9b49-7e61740f3f04"]
+  },
+  {
     "id": "2026-10-24-vancouver-5-euro-50-kopeks-heimerle",
     "type": "spec_added",
     "title": "New: Austrian Vancouver 5 Euro, Russian 50 Kopeks and Heimerle + Meule 0.5 g",
