@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-11-09-us-10-dollar-eagles",
+    "type": "spec_added",
+    "title": "US $10 gold coins: now easy to find",
+    "body": "The classic US $10 gold Eagles (.900 fine, about 16.7 g) are listed as Indian Head Eagle and Liberty Head Eagle, and now also turn up when you search for \"10 dollars\", \"ten dollars\" or \"$10\". Open Add Holding → Gold → Coin to find them.",
+    "createdAt": "2026-11-09T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["e6768033-4a6b-4a10-97c1-6fdd33f1d439", "1c68d8bd-3160-42cc-8f9a-0c98744bdadc"]
+  },
+  {
+    "id": "2026-11-09-mennica-polska-gold",
+    "type": "spec_added",
+    "title": "New bars: Mennica Polska gold",
+    "body": "Added the requested Mennica Polska gold bars (.9999 fine) — the Mint of Poland's range from 0.25 g to 100 g, plus the 1 kg cast bar. Open Add Holding → Gold → Bar to find them.",
+    "createdAt": "2026-11-09T12:00:00Z",
+    "holdingType": "bar",
+    "requestIds": ["4dc6b302-ccce-41f4-b7fa-41ed57732cce"]
+  },
+  {
     "id": "2026-11-03-wessex-gold-heimerle-1g",
     "type": "spec_added",
     "title": "New: Wessex Mint gold bars and Heimerle + Meule 1 g",
