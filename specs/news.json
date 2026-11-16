@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-11-16-nicholas-ii-5-rubles-canadian-silver",
+    "type": "spec_added",
+    "title": "New coins: Nicholas II 5 Rubles, Incuse Maple Leaf and RCMP Mountie",
+    "body": "Added three requested coins: the Russian Empire 5 Rubles of Nicholas II (1897–1911, .900 fine, 4.3 g), the Royal Canadian Mint 1 oz Incuse Silver Maple Leaf (.9999 fine) and the 2020 RCMP 100th Anniversary 2 oz silver Mountie (.9999 fine). Open Add Holding → Gold or Silver → Coin to find them.",
+    "createdAt": "2026-11-16T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["e2253f6e-c0fe-4fb0-81f3-fecc1dc7f35f", "cd35621d-b402-49b7-8367-794b702ced0b"]
+  },
+  {
     "id": "2026-11-09-us-10-dollar-eagles",
     "type": "spec_added",
     "title": "US $10 gold coins: now easy to find",
