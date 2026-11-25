@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-11-25-lion-eagle-merlin-germania-ogussa-metalor",
+    "type": "spec_added",
+    "title": "New: Lion and the Eagle, Merlin, Germania Allegories & Valkyries, Ögussa and Metalor silver bars",
+    "body": "Added the Royal Mint's The Lion and the Eagle (1 oz, ¼ oz and 1/10 oz gold, .9999 fine; 1 oz and 5 oz silver, .999 fine), Myths and Legends Merlin (1 oz gold, .9999 fine; 1 oz and 10 oz silver), Germania Mint's Allegories: Polonia & Germania (1 oz and 5 oz) and Valkyries: Hildegard (1 oz and 2 oz) in .9999 silver, Ögussa gold bars from 1 g to 1 kg (.9999 fine) and Metalor cast silver bars in 250 g, 500 g and 1 kg (.999 fine). Open Add Holding → Gold or Silver → Coin or Bar to find them.",
+    "createdAt": "2026-11-25T12:00:00Z",
+    "holdingType": "coin",
+    "requestIds": ["1e69b2e5-eca5-4a46-b02b-ef10c4196473", "e71f136b-4c7c-4a1e-8a65-b8a5c5de821c"]
+  },
+  {
     "id": "2026-11-16-nicholas-ii-5-rubles-canadian-silver",
     "type": "spec_added",
     "title": "New coins: Nicholas II 5 Rubles, Incuse Maple Leaf and RCMP Mountie",
